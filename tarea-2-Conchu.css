@@ -1,0 +1,61 @@
+/*Estilo de la grilla*/
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 20% auto 160px;
+  grid-template-rows: 120px 300px 120px;
+}
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.navigation {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.sidebar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.main {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/*Estilos auxiliares*/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 80vh;
+}
+.container >  {
+  min-height: 1140px;
+  min-width: 200px;
+}
+.logo {
+  background: #FF964E;
+}
+.navigation {
+  background: #4caf50;
+}
+.sidebar {
+  background: #fff06d;
+}
+.main {
+  background: #7086f1;
+}
+.footer {
+  background: #f58db6;
+}
